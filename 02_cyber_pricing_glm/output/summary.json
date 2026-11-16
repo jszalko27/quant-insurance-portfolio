@@ -1,0 +1,28 @@
+{
+  "train_policies": 120000,
+  "train_claims": 1366,
+  "test_policies": 60000,
+  "frequency_deviance_explained": 0.06779037799476273,
+  "severity_dispersion": 2.019845818793066,
+  "max_coef_diff_vs_sklearn": 2.656840625475665e-06,
+  "true_relativities_inside_95CI": "22 of 23",
+  "gini_glm": 0.6013536507746309,
+  "gini_current_plan": 0.5597407084939436,
+  "test_LR_current_plan": 0.6283579331072192,
+  "base_rate_per_policy_2025_$25M_prof_services_no_controls": 1997.1335784986397,
+  "revenue_exponent_premium": 0.726745396619147,
+  "double_lift_current_plan_LR_by_quintile": [
+    0.271,
+    0.275,
+    0.568,
+    0.671,
+    0.937
+  ],
+  "double_lift_glm_plan_LR_by_quintile": [
+    0.889,
+    0.588,
+    0.912,
+    0.796,
+    0.639
+  ]
+}

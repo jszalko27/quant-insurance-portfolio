@@ -1,0 +1,134 @@
+{
+  "policies": 5000,
+  "total_limit_$M": 19552.0,
+  "premium_$M": 43.70041685719221,
+  "AAL_total_$M": 26.220250114315327,
+  "AAL_attritional_$M": 20.940594609254237,
+  "AAL_systemic_$M": 5.279655505061092,
+  "AAL_by_source_$M": {
+    "BEC": 0.865,
+    "Funds transfer fraud": 6.213,
+    "Ransomware": 4.938,
+    "Data breach": 8.101,
+    "Other": 0.824,
+    "Cloud outage": 1.197,
+    "Software supply chain": 2.099,
+    "Ransomware campaign": 1.983
+  },
+  "expected_loss_ratio": 0.6,
+  "cat_load_share_of_premium": 0.12081476298760217,
+  "avg_premium_per_policy_$": 8740.083371438443,
+  "premium_rate_on_line": 0.0022350867868858536,
+  "AEP_$M": {
+    "10": 42.80468053203611,
+    "25": 60.28155249580564,
+    "50": 75.08878506031301,
+    "100": 92.17344061250049,
+    "200": 112.42056731942317,
+    "250": 119.58221120049976,
+    "500": 139.78002363876323
+  },
+  "OEP_$M": {
+    "10": 18.905009284621578,
+    "25": 34.936324284500216,
+    "50": 47.70145479056282,
+    "100": 62.441489516848975,
+    "200": 82.80492283585426,
+    "250": 88.93352189908269,
+    "500": 111.46020178994527
+  },
+  "loss_ratio_at_RP": {
+    "10": 0.9795027967791873,
+    "25": 1.379427402095468,
+    "50": 1.7182624437129348,
+    "100": 2.1092119307171,
+    "200": 2.5725284883849113,
+    "250": 2.736408936127092,
+    "500": 3.198597031592348
+  },
+  "TVaR_99.5_$M": 142.9503254895691,
+  "PML200_share_of_limit": 0.005749824433276553,
+  "tail_mix_1in200": {
+    "BEC": 0.006,
+    "Funds transfer fraud": 0.045,
+    "Ransomware": 0.04,
+    "Data breach": 0.062,
+    "Other": 0.006,
+    "Cloud outage": 0.351,
+    "Software supply chain": 0.44,
+    "Ransomware campaign": 0.049
+  },
+  "vendor_AAL_$M": {
+    "Campaign": 1.983,
+    "Cloud A": 0.507,
+    "Cloud B": 0.524,
+    "Cloud C": 0.166,
+    "Software S1": 0.731,
+    "Software S2": 0.549,
+    "Software S3": 0.369,
+    "Software S4": 0.285,
+    "Software S5": 0.166
+  },
+  "vendor_tail_contribution_$M": {
+    "Campaign": 6.96,
+    "Cloud A": 21.45,
+    "Cloud B": 27.16,
+    "Cloud C": 1.59,
+    "Software S1": 41.64,
+    "Software S2": 15.97,
+    "Software S3": 3.79,
+    "Software S4": 1.38,
+    "Software S5": 0.18
+  },
+  "dependents_by_cloud": {
+    "Cloud A": 1950,
+    "Cloud B": 1484,
+    "On-prem/other": 988,
+    "Cloud C": 578
+  },
+  "stress_$M": {
+    "Cloud A outage, 24h": 0.981289049667222,
+    "Cloud A outage, 72h": 71.40678033490099,
+    "Cloud B outage, 72h": 66.34357480254333,
+    "Software S1 compromise, 30% of users breached": 115.63881668855616,
+    "Software S1 compromise, 60% of users breached": 231.27763337711232
+  },
+  "reinsurance_and_capital": {
+    "gross": {
+      "premium_$M": 43.70041685719221,
+      "AAL_$M": 26.220250114315327,
+      "AEP_100_$M": 92.17344061250049,
+      "AEP_200_$M": 112.42056731942317,
+      "expected_UW_profit_$M": 4.3700416857192135,
+      "required_capital_$M": 81.83027551938913,
+      "return_on_capital": 0.05340372689670049,
+      "prob_UW_loss_year": 0.23386
+    },
+    "net": {
+      "premium_$M": 34.92573015137737,
+      "AAL_$M": 19.74055900037881,
+      "AEP_100_$M": 50.037197621197976,
+      "AEP_200_$M": 59.11583507592514,
+      "expected_UW_profit_$M": 2.0750460938408968,
+      "required_capital_$M": 37.30022998170545,
+      "return_on_capital": 0.055630919564266475,
+      "prob_UW_loss_year": 0.31044
+    },
+    "xl": {
+      "layer": "$40M xs $20M per systemic event",
+      "expected_recovery_$M": 1.54455136384182,
+      "premium_$M": 3.08910272768364,
+      "rate_on_line": 0.077227568192091,
+      "prob_layer_hit": 0.09494
+    },
+    "qs": {
+      "cession": 0.2,
+      "ceding_commission": 0.3
+    }
+  },
+  "sensitivity_better_controls": {
+    "AAL_total_$M": 22.054465776667676,
+    "AEP_200_$M": 106.13606822251731,
+    "expected_loss_ratio_same_premium": 0.5046740366056246
+  }
+}
