@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.db
+backtest-env/
+01_cyber_accumulation_model/out/annual_losses_by_source.csv
+_questions_for_john/
