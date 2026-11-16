@@ -1,0 +1,12 @@
+factor,relativity
+industry: Manufacturing,1.7058308666258442
+industry: Healthcare,2.4201438487699334
+industry: Financial services,1.434819546123813
+industry: Retail,0.6551494313398581
+industry: Technology,1.3026659041252526
+industry: Education & public,1.2329143354768555
+has mfa,0.6256169338171158
+has edr,0.6670465544440268
+has patching,0.9031766500034326
+has backups,0.6294242295855061
+prior claim,1.5758226858529532

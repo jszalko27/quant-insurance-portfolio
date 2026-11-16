@@ -1,0 +1,8 @@
+industry,policies,frequency,loss_ratio,pct_of_premium
+Healthcare,21746,0.0148,0.954,13.4
+Financial services,21668,0.0093,0.749,10.3
+Manufacturing,28699,0.014,0.742,16.7
+Technology,21649,0.0124,0.63,12.1
+Professional services,39562,0.011,0.529,20.6
+Education & public,21449,0.0144,0.452,13.5
+Retail,25227,0.0108,0.371,13.4
