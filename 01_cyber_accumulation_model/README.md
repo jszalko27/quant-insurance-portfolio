@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Cyber Catastrophe Accumulation Model
+# Cyber Catastrophe Accumulation Model
 
 **How much can a cyber insurance book lose in one bad year, what drives that tail, and how much reinsurance and capital does it need?**
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 At a glance
+##  At a glance
 
 | | |
 |:--|:--|
@@ -27,7 +27,7 @@
 
 ---
 
-## 🧭 How the model works
+##  How the model works
 
 ```mermaid
 flowchart LR
@@ -50,7 +50,7 @@ Each insured has an industry, revenue, policy limit and retention, a mix of secu
 
 ---
 
-## 📈 Results
+##  Results
 
 ### How bad can a year get?
 ![Exceedance probability curves](figures/ep_curves.png)
@@ -94,7 +94,7 @@ The cat XL ($40M xs $20M per systemic event) costs a 7.7% rate on line and is hi
 
 ---
 
-## 🔬 Method details
+##  Methodology
 
 **Return-period loss.** The 1-in-*N* loss is the (1 − 1/*N*) quantile of simulated annual losses:
 
@@ -108,7 +108,7 @@ $$\text{Capital} = -\,\text{VaR}_{0.5\%}\big(\text{Premium} - \text{Expenses} - 
 
 ---
 
-## 📁 Files
+##  Files
 
 ```
 01_cyber_accumulation_model/
@@ -124,7 +124,7 @@ python3 -m pytest -q                                     # 8 passed
 python3 accumulation_model.py --mfa 0.95                 # what if 95% had MFA?
 ```
 
-## 🚧 Limitations and next steps
+##  Limitations
 - Systemic event rates are assumptions, not fitted to history
 - Events are independent; a cloud outage never cascades into a software failure
 - Annual aggregate limits are applied but barely bind (a policy is rarely hit twice in a year)
