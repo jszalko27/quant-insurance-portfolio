@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧭 Trend Following with Shares
+# Trend Following with Shares
 
 **The momentum signal failed with options (project 04). Does it work when you hold SPY shares and step aside into T-bills?**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 At a glance
+## At a glance
 
 | | |
 |:--|:--|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧭 How it works
+## How it works
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ flowchart LR
 
 ---
 
-## 📈 Results
+## Results
 
 ### Return vs worst drawdown
 ![Risk vs return](figures/risk_return.png)
@@ -72,12 +72,12 @@ flowchart LR
 
 ---
 
-## 🔬 Honesty rules built in
+## Honesty rules built in
 - The signal uses today's close; the position changes at **tomorrow's** close (no look-ahead)
 - 0.05% cost per switch; T-bills earn the 13-week Treasury rate
 - Taxes ignored, so results flatter frequent-switching variants in taxable accounts
 
-## 📁 Files
+## Files
 
 ```
 05_trend_following/
