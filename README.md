@@ -83,7 +83,7 @@ flowchart TB
     O[04 Options momentum<br/>fails] --> T[05 Same signal with shares<br/>works as risk control]
 ```
 
-Projects 01–03 follow a cyber book through its life. The theme across them: **controls separate good from bad individual risks, but the portfolio's tail comes from shared dependencies**, so it is managed with limits, wording, reinsurance and capital.
+Projects 01–03 follow a lifecycle format of cyber risk in insurance formats. This includes exposures that are essential for pricing risk, and the weight that each variable holds historically. This blends to claims activity, which influences weight on the back end, whether short, or long tail risk. The theme across them: **controls separate good from bad individual risks, but the portfolio's tail comes from shared dependencies**, so it is managed with limits, wording, reinsurance and capital.
 
 </td>
 </tr>
@@ -93,12 +93,14 @@ Projects 01–03 follow a cyber book through its life. The theme across them: **
 
 ##  Skills shown
 
-| Area | 
-|:--|:--|
 | **Statistics & econometrics** | GLMs, Monte Carlo, bootstrap, out-of-time validation |
+
 | **Actuarial methods** | Exceedance curves, PML, TVaR · rating plans · chain ladder, BF |
+
 | **Risk & capital** | Reinsurance structuring and 99.5% VaR capital · drawdown controls |
+
 | **Coding** | Python, NumPy, pandas, SQL, unit tests, reproducible one-command runs |
+
 | **Judgment** | Calibration to public data, Quantitative Analysis, Discernment of Overfitting and Unfeasible outcome (TOO-GOOD) |
 
 ---
