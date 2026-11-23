@@ -1,8 +1,8 @@
 <div align="center">
 
-# John Szalko · Quantitative Insurance Portfolio
+# John Szalko · Cyber Risk in Insurance/Options
 
-**Five Python projects covering the core quantitative work in cyber insurance and markets:**
+**Industry focused, as well as what I am working on. A view on the weight of variables when assesing risk in the cyber market**
 **pricing · catastrophe accumulation · reserving · systematic trading**
 
 ![Python](https://img.shields.io/badge/Python-3.11+-2a78d6?logo=python&logoColor=white)
