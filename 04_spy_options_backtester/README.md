@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📉 Systematic Options Strategy Backtester
+# Systematic Options Strategy Backtester
 
 **Can a rules-based momentum strategy that buys SPY call options beat simply holding SPY under strict risk limits?**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 At a glance
+## At a glance
 
 | | |
 |:--|:--|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧭 How it works
+## How it works
 
 ```mermaid
 flowchart LR
@@ -41,7 +41,7 @@ flowchart LR
 
 ---
 
-## 📈 Results
+## Results
 
 ![Options vs SPY](figures/options_vs_spy.png)
 
@@ -65,7 +65,7 @@ flowchart LR
 
 ---
 
-## 🔬 Method details
+## Method details
 
 - **Pricing:** Black-Scholes with VIX as at-the-money implied volatility plus a log-moneyness skew, $\sigma(K) = \sigma_{ATM}\,(1 - 2.5\ln(K/S))$
 - **Costs:** 3% of option price lost to bid/ask each way, plus $0.65 a contract
@@ -74,7 +74,7 @@ flowchart LR
 
 ---
 
-## 📁 Files
+## Files
 
 ```
 04_spy_options_backtester/
