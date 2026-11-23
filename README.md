@@ -14,13 +14,13 @@
 
 ---
 
-## 🗂️ Projects
+##  Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [🌐 01 · Cyber Accumulation Model](01_cyber_accumulation_model/)
+### [ Cyber Accumulation Model](01_cyber_accumulation_model/)
 <a href="01_cyber_accumulation_model/"><img src="01_cyber_accumulation_model/figures/average_vs_tail.png" width="100%"></a>
 
 1-in-200 loss of **$112M** (2.6× premium); **~80%** of the tail comes from shared vendors. Reinsurance cuts capital **$82M → $37M**.
@@ -30,7 +30,7 @@
 </td>
 <td width="50%" valign="top">
 
-### [💲 02 · Cyber Pricing GLM](02_cyber_pricing_glm/)
+### [ Cyber Pricing GLM](02_cyber_pricing_glm/)
 <a href="02_cyber_pricing_glm/"><img src="02_cyber_pricing_glm/figures/loss_ratio_by_controls.png" width="100%"></a>
 
 Recovers **22 of 23** true risk factors; MFA, EDR and backups each worth a **~35%** credit; Gini **0.60** vs 0.56.
@@ -42,7 +42,7 @@ Recovers **22 of 23** true risk factors; MFA, EDR and backups each worth a **~35
 <tr>
 <td width="50%" valign="top">
 
-### [📊 03 · Cyber Loss Reserving](03_cyber_loss_reserving/)
+### [Cyber Loss Reserving](03_cyber_loss_reserving/)
 <a href="03_cyber_loss_reserving/"><img src="03_cyber_loss_reserving/figures/paid_triangle.png" width="100%"></a>
 
 Incurred chain ladder within **0.1%** of the true $95M reserve; bootstrap 99.5th percentile **$114M**.
@@ -52,7 +52,7 @@ Incurred chain ladder within **0.1%** of the true $95M reserve; bootstrap 99.5th
 </td>
 <td width="50%" valign="top">
 
-### [📉 04 · Options Strategy Backtester](04_spy_options_backtester/)
+### [Options Strategy Backtester](04_spy_options_backtester/)
 <a href="04_spy_options_backtester/"><img src="04_spy_options_backtester/figures/options_vs_spy.png" width="100%"></a>
 
 No variant beat SPY (best **2.1%/yr** vs **13.9%**); found and fixed a pricing bias that faked a 2–3 point edge.
@@ -64,7 +64,7 @@ No variant beat SPY (best **2.1%/yr** vs **13.9%**); found and fixed a pricing b
 <tr>
 <td width="50%" valign="top">
 
-### [🧭 05 · Trend Following with Shares](05_trend_following/)
+### [Trend Following with Shares](05_trend_following/)
 <a href="05_trend_following/"><img src="05_trend_following/figures/risk_return.png" width="100%"></a>
 
 Same signal as 04, now with shares: worst drawdown **55% → 21–24%** for 1–3 points of return; the 2× version returned **13–14%/yr**.
@@ -74,7 +74,7 @@ Same signal as 04, now with shares: worst drawdown **55% → 21–24%** for 1–
 </td>
 <td width="50%" valign="top">
 
-### 🧩 How they connect
+### How they connect
 
 ```mermaid
 flowchart TB
@@ -91,27 +91,17 @@ Projects 01–03 follow a cyber book through its life. The theme across them: **
 
 ---
 
-## 🛠️ Skills shown
+##  Skills shown
 
-| Area | Where |
+| Area | 
 |:--|:--|
-| **Statistics & econometrics** | GLMs (02), Monte Carlo (01), bootstrap (03), out-of-time validation (02, 05) |
-| **Actuarial methods** | Exceedance curves, PML, TVaR (01) · rating plans (02) · chain ladder, BF (03) |
-| **Risk & capital** | Reinsurance structuring and 99.5% VaR capital (01) · drawdown controls (04, 05) |
-| **Engineering** | Python, NumPy, pandas, SQL, unit tests, reproducible one-command runs |
-| **Judgment** | Calibration to public data, honest caveats, catching a too-good result (04) |
+| **Statistics & econometrics** | GLMs, Monte Carlo, bootstrap, out-of-time validation |
+| **Actuarial methods** | Exceedance curves, PML, TVaR · rating plans · chain ladder, BF |
+| **Risk & capital** | Reinsurance structuring and 99.5% VaR capital · drawdown controls |
+| **Coding** | Python, NumPy, pandas, SQL, unit tests, reproducible one-command runs |
+| **Judgment** | Calibration to public data, Quantitative Analysis, Discernment of Overfitting and Unfeasible outcome (TOO-GOOD) |
 
 ---
-
-## ▶️ Run everything
-
-```bash
-pip install -r requirements.txt
-cd 01_cyber_accumulation_model && python3 accumulation_model.py --years 50000 --out out && python3 -m pytest -q && cd ..
-cd 02_cyber_pricing_glm && python3 generate_data.py && python3 sql_analysis.py && python3 pricing_model.py && cd ..
-cd 03_cyber_loss_reserving && python3 reserving.py && cd ..
-python3 make_figures.py      # rebuilds every README chart in one consistent style
-```
 
 > [!NOTE]
 > **Data:** no employer, client or proprietary data is used anywhere. Insurance data is simulated from documented assumptions calibrated loosely to public claims studies (Coalition 2026, NetDiligence 2025). Market data in 04–05 comes from Yahoo Finance at run time.
