@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💲 Cyber Pricing: Frequency-Severity GLM
+# Cyber Pricing: Frequency-Severity GLM
 
 **The current rating plan prices cyber on revenue and industry only. Should it give credit for security controls, and by how much?**
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 At a glance
+##  At a glance
 
 | | |
 |:--|:--|
@@ -27,7 +27,7 @@
 
 ---
 
-## 🧭 Pipeline
+## Pipeline
 
 ```mermaid
 flowchart LR
@@ -45,7 +45,7 @@ Because the data is simulated from **known** risk factors, the model can be grad
 
 ---
 
-## 📈 Results
+## Results
 
 ### Step 1. SQL shows the problem
 ![Loss ratio by controls](figures/loss_ratio_by_controls.png)
@@ -92,7 +92,7 @@ GROUP BY controls_in_place;
 
 ---
 
-## 🔬 Method details
+##  Method details
 
 **Frequency:** Poisson GLM with a log link and exposure offset
 
@@ -104,7 +104,7 @@ $$\log \mathbb{E}[N_i] = \log(\text{exposure}_i) + \beta_0 + \sum_k \beta_k x_{i
 
 ---
 
-## 📁 Files
+##  Files
 
 ```
 02_cyber_pricing_glm/
