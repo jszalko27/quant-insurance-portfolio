@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Cyber Loss Reserving
+# Cyber Loss Reserving
 
 **How much does a fast-growing cyber book still owe on claims that have already happened, and how uncertain is that number?**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 At a glance
+##  At a glance
 
 | | |
 |:--|:--|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧭 How it works
+## How it works
 
 ```mermaid
 flowchart LR
@@ -44,7 +44,7 @@ The book grows from $20M to $100M of premium a year, with a **2020–2021 ransom
 
 ---
 
-## 📈 Results
+## Results
 
 ### The data: a paid loss triangle
 ![Paid triangle](figures/paid_triangle.png)
@@ -70,7 +70,7 @@ The book grows from $20M to $100M of premium a year, with a **2020–2021 ransom
 
 ---
 
-## 🔬 Method details
+## Method details
 
 **Chain ladder.** Volume-weighted age-to-age factors, chained to ultimate:
 
@@ -84,7 +84,7 @@ $$\hat{U}_i = C_{i,\text{latest}} + \text{Premium}_i \times \text{ELR} \times \l
 
 ---
 
-## 📁 Files
+## Files
 
 ```
 03_cyber_loss_reserving/
